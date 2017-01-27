@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96109E341E3B64A900D99480 /* LakkiReddy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96109E331E3B64A900D99480 /* LakkiReddy-Regular.ttf */; };
 		967B9C9C1E39FA40006F403B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9C9B1E39FA40006F403B /* AppDelegate.swift */; };
 		967B9CA11E39FA40006F403B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967B9C9F1E39FA40006F403B /* Main.storyboard */; };
 		967B9CA41E39FA40006F403B /* ConvalesenseSensor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 967B9CA21E39FA40006F403B /* ConvalesenseSensor.xcdatamodeld */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96109E331E3B64A900D99480 /* LakkiReddy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LakkiReddy-Regular.ttf"; sourceTree = "<group>"; };
 		967B9C981E39FA40006F403B /* ConvalesenseSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvalesenseSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		967B9C9B1E39FA40006F403B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		967B9CA01E39FA40006F403B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				967B9CE71E3A5C3E006F403B /* AdvertisingController.swift */,
 				967B9CEF1E3A84E8006F403B /* PeripheralBroadcaster.swift */,
 				967B9CF11E3A85AD006F403B /* AccelerometerMonitor.swift */,
+				96109E331E3B64A900D99480 /* LakkiReddy-Regular.ttf */,
 				967B9C9F1E39FA40006F403B /* Main.storyboard */,
 				967B9CA51E39FA40006F403B /* Assets.xcassets */,
 				967B9CA71E39FA40006F403B /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				967B9CA91E39FA40006F403B /* LaunchScreen.storyboard in Resources */,
+				96109E341E3B64A900D99480 /* LakkiReddy-Regular.ttf in Resources */,
 				967B9CA61E39FA40006F403B /* Assets.xcassets in Resources */,
 				967B9CA11E39FA40006F403B /* Main.storyboard in Resources */,
 			);
