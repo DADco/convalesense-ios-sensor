@@ -9,12 +9,17 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="LakkiReddy-Regular.ttf">
+            <string>LakkiReddy</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="fEh-EH-1rN">
             <objects>
                 <navigationController id="x4l-G3-YAC" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hKe-2p-uNt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="hKe-2p-uNt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -70,16 +75,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opj-VO-GlM">
-                                <rect key="frame" x="16" y="104" width="343" height="129"/>
+                                <rect key="frame" x="16" y="104" width="343" height="170"/>
                                 <string key="text">Tap your fingers
-on the 2nd screen to
+on this screen to
 water your plant</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="LakkiReddy" family="Lakki Reddy" pointSize="34"/>
                                 <color key="textColor" red="0.59515124559999999" green="0.61849540469999997" blue="0.68493348359999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Water Intro 1" translatesAutoresizingMaskIntoConstraints="NO" id="bi8-lI-sIB">
-                                <rect key="frame" x="36" y="293" width="303" height="400"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Water Intro 1" translatesAutoresizingMaskIntoConstraints="NO" id="bi8-lI-sIB">
+                                <rect key="frame" x="36" y="334" width="303" height="400"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96437889340000005" green="0.97256809470000005" blue="0.97660666699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
