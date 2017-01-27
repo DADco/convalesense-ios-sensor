@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="x4l-G3-YAC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="fEh-EH-1rN">
+            <objects>
+                <navigationController id="x4l-G3-YAC" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hKe-2p-uNt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Q4g-Xu-qu6" kind="relationship" relationship="rootViewController" id="BEd-Ka-ZIg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOT-ys-9hu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1143" y="-133"/>
+        </scene>
+        <!--Advertising Controller-->
+        <scene sceneID="3gM-Ur-9m1">
+            <objects>
+                <viewController id="Q4g-Xu-qu6" customClass="AdvertisingController" customModule="ConvalesenseSensor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LId-Dp-J1k"/>
+                        <viewControllerLayoutGuide type="bottom" id="xku-Xg-X5z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cu8-GX-kUp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waiting" translatesAutoresizingMaskIntoConstraints="NO" id="8hN-Bf-n3Q">
+                                <rect key="frame" x="105.5" y="144" width="163" height="155"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96437889340000005" green="0.97256809470000005" blue="0.97660666699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8hN-Bf-n3Q" firstAttribute="centerX" secondItem="Cu8-GX-kUp" secondAttribute="centerX" id="5XC-N5-pAn"/>
+                            <constraint firstItem="8hN-Bf-n3Q" firstAttribute="top" secondItem="LId-Dp-J1k" secondAttribute="bottom" constant="80" id="8n7-3X-geC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="M9e-ct-Ahe"/>
+                    <connections>
+                        <segue destination="iwO-bt-4l3" kind="show" identifier="MakeItRain" id="mXQ-h7-zbc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W6a-XQ-chU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-143" y="-120"/>
+        </scene>
+        <!--Make It Rain Controller-->
+        <scene sceneID="NKk-s7-uUu">
+            <objects>
+                <viewController id="iwO-bt-4l3" customClass="MakeItRainController" customModule="ConvalesenseSensor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8o7-Ku-b3e"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pee-fz-kC4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0AR-en-6xe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opj-VO-GlM">
+                                <rect key="frame" x="16" y="104" width="343" height="129"/>
+                                <string key="text">Tap your fingers
+on the 2nd screen to
+water your plant</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.59515124559999999" green="0.61849540469999997" blue="0.68493348359999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Water Intro 1" translatesAutoresizingMaskIntoConstraints="NO" id="bi8-lI-sIB">
+                                <rect key="frame" x="106" y="293" width="164" height="227"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96437889340000005" green="0.97256809470000005" blue="0.97660666699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Opj-VO-GlM" secondAttribute="trailing" id="6ZV-iF-aIS"/>
+                            <constraint firstItem="bi8-lI-sIB" firstAttribute="centerX" secondItem="0AR-en-6xe" secondAttribute="centerX" id="GYM-hl-L16"/>
+                            <constraint firstItem="bi8-lI-sIB" firstAttribute="top" secondItem="Opj-VO-GlM" secondAttribute="bottom" constant="60" id="QXz-Xo-vzd"/>
+                            <constraint firstItem="Opj-VO-GlM" firstAttribute="leading" secondItem="0AR-en-6xe" secondAttribute="leadingMargin" id="bpE-SH-LZn"/>
+                            <constraint firstItem="Opj-VO-GlM" firstAttribute="top" secondItem="8o7-Ku-b3e" secondAttribute="bottom" constant="40" id="iqi-Fw-DQ7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="bi8-lI-sIB" id="O76-0f-eQ3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p5G-nH-lZ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="-120"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Water Intro 1" width="164" height="227"/>
+        <image name="waiting" width="163" height="155"/>
+    </resources>
+</document>
