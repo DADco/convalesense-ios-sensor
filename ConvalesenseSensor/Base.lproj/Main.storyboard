@@ -79,13 +79,14 @@ water your plant</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Water Intro 1" translatesAutoresizingMaskIntoConstraints="NO" id="bi8-lI-sIB">
-                                <rect key="frame" x="106" y="293" width="164" height="227"/>
+                                <rect key="frame" x="36" y="293" width="303" height="400"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96437889340000005" green="0.97256809470000005" blue="0.97660666699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Opj-VO-GlM" secondAttribute="trailing" id="6ZV-iF-aIS"/>
-                            <constraint firstItem="bi8-lI-sIB" firstAttribute="centerX" secondItem="0AR-en-6xe" secondAttribute="centerX" id="GYM-hl-L16"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bi8-lI-sIB" secondAttribute="trailing" constant="20" id="MbD-ob-7ic"/>
+                            <constraint firstItem="bi8-lI-sIB" firstAttribute="leading" secondItem="0AR-en-6xe" secondAttribute="leadingMargin" constant="20" id="Ni7-bc-zuC"/>
                             <constraint firstItem="bi8-lI-sIB" firstAttribute="top" secondItem="Opj-VO-GlM" secondAttribute="bottom" constant="60" id="QXz-Xo-vzd"/>
                             <constraint firstItem="Opj-VO-GlM" firstAttribute="leading" secondItem="0AR-en-6xe" secondAttribute="leadingMargin" id="bpE-SH-LZn"/>
                             <constraint firstItem="Opj-VO-GlM" firstAttribute="top" secondItem="8o7-Ku-b3e" secondAttribute="bottom" constant="40" id="iqi-Fw-DQ7"/>
@@ -101,7 +102,7 @@ water your plant</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Water Intro 1" width="164" height="227"/>
+        <image name="Water Intro 1" width="400" height="400"/>
         <image name="waiting" width="163" height="155"/>
     </resources>
 </document>
